@@ -1,0 +1,19 @@
+{
+  "name": "keypress-remapper",
+  "version": "1.0.0",
+  "dependencies": {
+    "iohook": "^0.6.2",
+    "robotjs": "^0.6.0"
+  },
+  "iohook": {
+    "targets": [
+      "node-64"
+    ],
+    "platforms": [
+      "win32"
+    ],
+    "arches": [
+      "x64"
+    ]
+  }
+}
