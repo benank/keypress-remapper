@@ -14,10 +14,10 @@ const keys =
 }
 
 const mouse_traslations = {
-    "mouse_left": {x: -30, y: 0},
-    "mouse_right": {x: 30, y: 0},
-    "mouse_up": {x: 0, y: -30},
-    "mouse_down": {x: 0, y: 30}
+    "mouse_left": {x: -20, y: 0},
+    "mouse_right": {x: 20, y: 0},
+    "mouse_up": {x: 0, y: -20},
+    "mouse_down": {x: 0, y: 20}
 }
 
 ioHook.on('keydown', (event) => {
